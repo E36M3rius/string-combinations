@@ -1,24 +1,19 @@
 # Intro
-
 ## String Combinations
 I created this small package in order to showcase the algorithm used for generate string permutations.
 
-#Usage
-
-## Crete instance
+# Usage
+## Create instance
 ```php
 $stringRandomizer = new RandomizeByPermutations(
   new Stringify($argv[1])
 );
 ```
-
 ## Generate permutations
 ```php
 $stringRandomizer->randomize()->getResult();
 ```
-
 # Example of output
-
 ```php
 php generateStringCombinations.php ABc32
 1/120 [ ABc32 ]
